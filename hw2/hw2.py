@@ -61,6 +61,9 @@ if __name__ == '__main__':
     cv2.imshow('Source', img)
     cv2.imshow('Dithering matrix L2', L2Out)
     cv2.imshow('Dithering matrix L4', L4Out)
+
+    cv2.imwrite('outputL2.jpg', L2Out)
+    cv2.imwrite('outputL4.jpg', L4Out)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     
