@@ -52,8 +52,7 @@ def ditheringL2(img):
 
 
 if __name__ == '__main__':
-    imgpath = 'input.jpg'
-    # imgpath = input("Please Enter the input image path:")
+    imgpath = input("Please Enter the input image path:")
     img = cv2.imread(imgpath, cv2.IMREAD_COLOR)
     L2Out = ditheringL2(img.copy())
     L4Out = ditheringL4(img.copy())
