@@ -1,0 +1,15 @@
+*.pdf
+*.zip
+*.pptx
+*.mov
+*.mp4
+*.DS_Store
+*.rar
+*.exe
+*.jpg
+*.png
+*.docx
+submit/
+doc/
+pyinstaller/
+inclass/
